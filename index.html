@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Popover Feature CSS</title>
+        <link rel="stylesheet" href="/styles/screen.css">
+    </head>
+    <body>
+        <div class="container">
+            <div>
+                <h1>New CSS Feature: Popover</h1>
+                <h3>Jared Goff</h3>
+            </div>
+            <button popovertarget="my-popover" class="trigger-btn"> View Player</button>
+            <div id="my-popover" popover=manual>
+                <img class="playerImage" alt="Picture of Detroit Lions QB Jared Goff" src="images/jaredgoff.jpg">
+                <p>Name: Jared Goff</p>
+                <p>Position: Quarterback</p>
+                <p>College: California</p>
+                <p>Height: 6'4</p>
+                <p>Weight: 217 lb</p>
+                <p>Age: 29</p>
+            </div> 
+        </div>
+    </body>
+</html>
